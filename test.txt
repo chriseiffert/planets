@@ -16,9 +16,7 @@ Date:   Wed Sep 12 11:22:21 2018 +0200
 
 commit a94e98105fb83e50dca0f031bf2283e54aefcbaf
 Author: Bjorn Aarseth <b.b.aarseth@its.uio.no>
-Date:   Wed Sep 12 11:04:58 2018 +0200
-
-    Stating the badness of things
+Date:   Wed Sep 12 
 
 commit 4faa7d4626359b98547a1cf99f5f43224fc5b822
 Author: Bjorn Aarseth <b.b.aarseth@its.uio.no>
@@ -68,10 +66,7 @@ $ notepad.gitignore
 bash: notepad.gitignore: command not found
 
 bjornaa@pc5629 MINGW64 ~/Desktop/planets (master)
-$ notepad .gitignore
-
-bjornaa@pc5629 MINGW64 ~/Desktop/planets (master)
-$ git status
+$ notepad .gitignore$ git status
 On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -123,7 +118,6 @@ On branch master
 nothing to commit, working tree clean
 
 bjornaa@pc5629 MINGW64 ~/Desktop/planets (master)
-$ git remote -v
 
 bjornaa@pc5629 MINGW64 ~/Desktop/planets (master)
 $ git remote add origin https://github.com/BjornLAarseth/planets.githttps://github.com/BjornLAarseth/planets.git
@@ -190,7 +184,6 @@ index 0edbea8..4507aa7 100644
 -But the Mummy will appreciate the lack of humidity
 \ No newline at end of file
 +Mars is cold
-\ No newline at end of file
 
 bjornaa@pc5629 MINGW64 ~/Desktop/planets (master)
 $ git clone https://github.com/chriseiffert/planets.git ~/Desktop/chriseiffert-planets
@@ -293,7 +286,7 @@ $ git status
 On branch master
 Your branch is up to date with 'origin/master'.
 
-nothing to commit, working tree clean
+nothing to commit,n
 
 bjornaa@pc5629 MINGW64 ~/Desktop/chriseiffert-planets (master)
 $ git pull origin master
